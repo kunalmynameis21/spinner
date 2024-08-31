@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register form"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="474dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name :"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:layout_width="265dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="-29dp"
+            android:inputType="text"
+            android:background="@drawable/shape" />
+
+        <Spinner
+            android:layout_width="264dp"
+            android:layout_height="39dp"
+            android:id="@+id/list_item"
+
+            android:layout_marginLeft="102dp"
+            android:layout_marginTop="-40dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email :"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:layout_width="265dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="-29dp"
+            android:inputType="text"
+            android:background="@drawable/shape" />
+        <Spinner
+            android:layout_width="264dp"
+            android:layout_height="39dp"
+            android:id="@+id/list_item2"
+            android:layout_marginLeft="102dp"
+            android:layout_marginTop="-40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:layout_width="265dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="-29dp"
+            android:inputType="textPassword"
+            android:background="@drawable/shape" />
+
+        <Spinner
+            android:layout_width="264dp"
+            android:layout_height="39dp"
+            android:id="@+id/list_item2"
+            android:layout_marginLeft="102dp"
+            android:layout_marginTop="-40dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Save"
+        android:backgroundTint="#2196F3"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="-45dp"
+
+        android:text="Reset"
+
+        android:backgroundTint="#F44336"
+        android:textStyle="bold"/>
+</LinearLayout>
